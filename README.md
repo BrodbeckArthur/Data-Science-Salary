@@ -58,6 +58,25 @@ The analysis focused on:
 
 ---
 
+## Visualizations
+
+### Salary by Experience Level
+![Salary by Experience](images/salary_by_experience.png)
+
+### Impact of Remote Work on Salaries
+![Work_Type](images/Work_Type.png)
+
+### Salary Comparison: Canada vs. Global Tech Hubs
+![Salary_Comparison](images/Salary_Comparison.png)
+
+### Data Science Salaries in Canada by Experience (2025)
+![Salaries_in_Canada](images/Salaries_in_Canada.png)
+
+### Evolution of Entry-Level Salaries (2024 - 2025)
+![Evolution_EntryLevel_Salary](images/Evolution_EntryLevel_Salary.png)
+
+---
+
 ## Key Insights
 
 - Senior professionals earn significantly higher salaries compared to entry-level roles.

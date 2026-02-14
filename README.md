@@ -1,33 +1,185 @@
-## Data Science Salaries 2025: A Tourist's Perspective in Toronto 
-## * Why this project?
-Currently, I am in Toronto, exploring the city as a tourist and absorbing the energy of one of North America's biggest tech hubs. Beyond visiting iconic spots like the CN Tower, I decided to use my transition into the tech field to investigate the real dynamics of the 2025 data market.
+# Data Science Salary Analysis
 
-This project isn't just a coding exercise; it’s the result of my curiosity to see if the innovation "vibe" I feel on the streets of Toronto translates into real numbers and career opportunities. I wanted to understand how the Canadian market stands against global giants like the US and Europe while experiencing the local cost of living firsthand.
+## Objective
+This project explores salary trends in Data Science roles based on experience level, job title and employment type.
 
-## * Challenges & The "Old Mac" Hack
-One of the main challenges of this analysis was my hardware. I’m running a 2014 MacBook with macOS Big Sur. Instead of letting the hardware limit me, I used Google Colab to handle the processing in the cloud. This experience taught me that in data science, resourcefulness is just as important as coding—knowing how to use cloud solutions to bypass local limitations is a vital skill.
+The goal is to understand how different factors influence compensation in the data field and extract insights that could support career decisions and hiring strategies.
 
-## * What I set out to discover
-Toronto's Reality: How competitive is the Canadian market compared to the US and Europe?
+---
 
-The Career Ladder: What is the actual salary gap between Junior (Entry-level) and Senior roles?
+## Dataset
+Public dataset containing information about data science salaries, roles, experience levels and employment types.
 
-Remote Work: In a city as expensive as Toronto, does working 100% remotely pay off?
+Variables include:
+- Job title
+- Experience level
+- Salary
+- Employment type
+- Company location
 
-Market Evolution: Did entry-level salaries actually grow from 2024 to 2025?
+---
 
-## * Key Findings from my "Research Trip"
-Toronto holds its ground: The analysis confirmed that Canada remains a highly competitive location for data talent.
+## Tools & Technologies
+- Python
+- Pandas
+- Matplotlib
+- Jupyter Notebook
 
-The Senior Jump: I noticed a significant salary spike for Senior roles, suggesting that while entry is competitive, the market heavily rewards experience and retention.
+---
 
-Remote Flexibility: 100% remote roles are paying as well as (or sometimes better than) on-site positions, which is a game-changer for someone living in a high-cost urban center.
+## Key Questions
+This analysis aims to answer:
 
-## * Business Recommendations
-Based on the data and my local observations, I’ve outlined three strategic insights for companies in high-cost hubs:
+- Do senior professionals earn significantly more than entry-level?
+- Which roles offer the highest compensation?
+- How experience level impacts salary distribution?
+- Are there noticeable trends across job categories?
 
-Expand Recruitment: Startups should look for Junior talent in a Remote-First model to tap into talent across Canada without Toronto's overhead costs.
+---
 
-Retention focus: To avoid "brain drain," firms need structured progression plans to bridge the gap between Mid-level and Senior salaries.
+## Data Cleaning
+The dataset was processed using Pandas:
 
-Smart Scaling: For Canadian firms expanding south, the data confirms a 20-30% salary premium in the US, making Canada the ideal hub for core Engineering and Data teams.
+- Missing values handled
+- Columns standardized
+- Salary values prepared for analysis
+- Categorical data structured for visualization
+
+---
+
+## Exploratory Data Analysis (EDA)
+
+The analysis focused on:
+
+- Salary distribution by experience level
+- Salary trends by job title
+- Relationship between role seniority and compensation
+- Overall salary behavior in data-related positions
+
+---
+
+## Key Insights
+
+- Senior professionals earn significantly higher salaries compared to entry-level roles.
+- Machine Learning and specialized roles tend to have higher compensation ranges.
+- Experience level is one of the strongest predictors of salary variation.
+- Salary distribution becomes more concentrated at higher ranges for experienced professionals.
+
+---
+
+## Conclusion
+
+Experience plays a critical role in salary growth within the data science field.  
+As professionals advance from junior to senior positions, compensation increases significantly, especially in specialized and technical roles.
+
+This analysis reinforces the importance of skill development, specialization and experience accumulation for long-term career progression in data.
+
+---
+
+## Project Structure
+
+# Data Science Salary Analysis
+
+## Objective
+This project explores salary trends in Data Science roles based on experience level, job title and employment type.
+
+The goal is to understand how different factors influence compensation in the data field and extract insights that could support career decisions and hiring strategies.
+
+---
+
+## Dataset
+Public dataset containing information about data science salaries, roles, experience levels and employment types.
+
+Variables include:
+- Job title
+- Experience level
+- Salary
+- Employment type
+- Company location
+
+---
+
+## Tools & Technologies
+- Python
+- Pandas
+- Matplotlib
+- Jupyter Notebook
+
+---
+
+## Key Questions
+This analysis aims to answer:
+
+- Do senior professionals earn significantly more than entry-level?
+- Which roles offer the highest compensation?
+- How experience level impacts salary distribution?
+- Are there noticeable trends across job categories?
+
+---
+
+## Data Cleaning
+The dataset was processed using Pandas:
+
+- Missing values handled
+- Columns standardized
+- Salary values prepared for analysis
+- Categorical data structured for visualization
+
+---
+
+## Exploratory Data Analysis (EDA)
+
+The analysis focused on:
+
+- Salary distribution by experience level
+- Salary trends by job title
+- Relationship between role seniority and compensation
+- Overall salary behavior in data-related positions
+
+---
+
+## Key Insights
+
+- Senior professionals earn significantly higher salaries compared to entry-level roles.
+- Machine Learning and specialized roles tend to have higher compensation ranges.
+- Experience level is one of the strongest predictors of salary variation.
+- Salary distribution becomes more concentrated at higher ranges for experienced professionals.
+
+---
+
+## Conclusion
+
+Experience plays a critical role in salary growth within the data science field.  
+As professionals advance from junior to senior positions, compensation increases significantly, especially in specialized and technical roles.
+
+This analysis reinforces the importance of skill development, specialization and experience accumulation for long-term career progression in data.
+
+---
+
+## Project Structure
+
+Data-Science-Salary/
+│
+├── data/
+├── notebooks/
+├── images/
+└── README.md
+
+---
+
+## Future Improvements
+
+- Build an interactive dashboard
+- Deploy insights using Streamlit
+- Integrate SQL-based analysis
+- Expand dataset for regional comparison
+
+---
+
+## Author
+
+Arthur Brodbeck  
+Aspiring Data Analyst focused on Python, Data Exploration and Insight Generation.
+
+GitHub: https://github.com/BrodbeckArthur  
+LinkedIn: https://www.linkedin.com/in/arthur-brodbeck-4ab89a253/
